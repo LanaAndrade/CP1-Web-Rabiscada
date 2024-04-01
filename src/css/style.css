@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,4 +7,38 @@
 
 #logo-img {
     width: 10rem; /* tamanho da fonte desejado */
+}
+
+#nav-menu-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#links-container{
+    background-color: #D8D7D7;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 1.5rem;
+    width: 65rem;
+    justify-content: space-evenly;
+}
+
+.link{
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.link:hover{
+    color: #043695;
+    font-weight: bold;
+    text-decoration: underline;
 }
