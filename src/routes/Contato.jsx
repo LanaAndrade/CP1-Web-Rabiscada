@@ -1,3 +1,4 @@
+import {} from 'react';
 import '../css/style.css'
 
 function Contato() {
@@ -6,7 +7,7 @@ function Contato() {
     return (
       <>
       </>
-    )
+    );
   }
   
   export default Contato

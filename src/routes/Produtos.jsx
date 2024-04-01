@@ -1,3 +1,4 @@
+import {} from 'react';
 import '../css/style.css'
 
 function Produtos() {
@@ -6,7 +7,7 @@ function Produtos() {
     return (
       <>
       </>
-    )
+    );
   }
   
   export default Produtos
