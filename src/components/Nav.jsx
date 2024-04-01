@@ -1,19 +1,24 @@
 import {Link} from  'react-router-dom'
+import '../css/style.css'
 
 function Nav() {
   
 
     return (
       <>
-        <h1> AAAAAA </h1>
         <header className='menu'>
             <nav className='nav-menu'>
                 <div id="logo">
-                    <img src="../src/assets/"/>
+                    <img id="logo-img" src="./src/assets/2eTCKMTV4wtQuheCvh7pHonpqss-cropped.svg"/>
                 </div>
+                
                 <ul>
-
+                    <Link to="/" className='link'>Home</Link>
+                    <Link to="/produtos" className='link'>Produtos</Link>
+                    <Link to="/sobre" className='link'>Sobre</Link>
+                    <Link to="/contato" className='link'>Contato</Link>
                 </ul>
+              
             </nav>
         </header>
       </>
