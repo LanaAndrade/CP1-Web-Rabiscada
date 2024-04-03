@@ -1,11 +1,11 @@
 import {} from 'react';
-import './Home.css';
-import beach from './assets/beach.svg';
-import chuteira from './assets/chuteira.svg';
-import jordan from './assets/jordan.svg';
-import football from './assets/football.svg';
-import regador from './assets/regador.svg';
-import lancamentos from './assets/lancamentos.svg';
+import beach from '/src/assets/beach.svg';
+import chuteira from '/src/assets/chuteira.svg';
+import football from '/src/assets/football.svg';
+import jordan from '/src/assets/jordan.svg';
+import regador from '/src/assets/regador.svg';
+import lancamentos from '/src/assets/lancamentos.svg';
+import '/src/css/Home.css';
 
 function Home ()  {
   return (
