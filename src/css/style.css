@@ -84,4 +84,60 @@
     font-size:2em;
     margin:0% 1%;
 }
-    
+
+#pg-produtos-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.label{
+    width: 8rem;
+}
+
+.produtos-container{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    gap: 5rem;
+}
+
+.produtos-row{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    gap: 5rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.produtos{
+    width: 15rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.img-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.img-produtos{  
+    object-fit: cover; /* Redimensiona a imagem para cobrir todo o contêiner */
+    width: 140%; 
+    height: 150%;
+}
