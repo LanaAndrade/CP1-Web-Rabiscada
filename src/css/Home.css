@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.beach-img {
+  width: 100%; 
+  height: 837px;
+}
+
+.news {
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.news-containers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.container-imagem-texto {
+  display: flex;
+  text-align: center;
+
+  background-color: rgb(189, 189, 189);
+  border-radius: 20px;
+}
+
+.texto-jordan {
+  padding: 2rem;
+}
+
+.imagem-chuteira{
+  width: 25%;
+  background-color: rgb(189, 189, 189);
+  border-radius: 20px;
+}
+
+.news-img {
+  padding: 1.5rem;
+  width: 230px;
+  border-radius: 50px;
+}
+
+.news-containers2 {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.imagem-football{
+  width: 25%;
+  background-color: rgb(189, 189, 189);
+  border-radius: 20px;
+}
+
+.imagem-regador{
+  background-color: rgb(189, 189, 189);
+  border-radius: 20px;
+}
+
+.texto-regador {
+  padding: 2rem;
+}
